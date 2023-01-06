@@ -13,7 +13,7 @@ int main()
         cin >> a[i];
     }
     int tsum=0,sum=0;
-    for(int i=0;i<n-m;i++)
+    for(int i=0;i<=n-m;i++)
     {
         sum=0;
         for(int j=i;j<i+m;j++)
